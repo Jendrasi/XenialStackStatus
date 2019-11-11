@@ -1,0 +1,26 @@
+{
+  "name": "xenialstackstatus",
+  "version": "1.0.0",
+  "description": "Web utility for checking current version and health status of Xenial dev, qa, and production environments.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jendrasi/XenialStackStatus.git"
+  },
+  "author": "Matthew Jendrasiak",
+  "license": "SEE LICENSE IN README.md",
+  "bugs": {
+    "url": "https://github.com/Jendrasi/XenialStackStatus/issues"
+  },
+  "homepage": "https://github.com/Jendrasi/XenialStackStatus#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}
