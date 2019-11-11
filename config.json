@@ -1,0 +1,143 @@
+{
+    "heartbeat": 3,
+    "retry": 3,
+    "port": 3000,
+    "stacks": [
+        "dev",
+        "qa",
+        "prod"
+    ],
+    "componentTree": [
+        {
+            "name": "Pipeline",
+            "subComponents": [
+                {
+                    "name": "PL Core API",
+                    "key": "pl"
+                },
+                {
+                    "name": "Drawer API",
+                    "key": "drawer"
+                },
+                {
+                    "name": "Deposit API",
+                    "key": "deposit"
+                },
+                {
+                    "name": "Order API",
+                    "key": "order"
+                },
+                {
+                    "name": "Worker API",
+                    "key": "xenial-pipeline-worker"
+                },
+                {
+                    "name": "Xenial Communication Service",
+                    "key": "xcs"
+                },
+                {
+                    "name": "Dispatcher API",
+                    "key": "dispatcher"
+                },
+                {
+                    "name": "Checksum API",
+                    "key": "xenial-checksum"
+                }
+            ]
+        },
+        {
+            "name": "Back Of House",
+            "subComponents": [
+                {
+                    "name": "BOH Core API",
+                    "key": "boh_core"
+                },
+                {
+                    "name": "Daybook API",
+                    "key": "boh_day"
+                },
+                {
+                    "name": "Inventory API",
+                    "key": "boh_inv"
+                },
+                {
+                    "name": "Forecast API",
+                    "key": "boh_for"
+                }
+            ]
+        },
+        {
+            "name": "Portal",
+            "subComponents": [
+                {
+                    "name": "Portal Core & Auth API",
+                    "key": "portal"
+                },
+                {
+                    "name": "Data Management API",
+                    "key": "dm"
+                },
+                {
+                    "name": "Legacy Onboarding API",
+                    "key": "ol"
+                }
+            ]
+        },
+        {
+            "name": "Reporting",
+            "subComponents": [
+                {
+                    "name": "Reporting API",
+                    "key": "reporting_api"
+                },
+                {
+                    "name": "ETL API",
+                    "key": "etl"
+                }
+            ]
+        },
+        {
+            "name": "Logging",
+            "subComponents": [
+                {
+                    "name": "Log Reader API",
+                    "key": "XLR"
+                },
+                {
+                    "name": "Pipeline Logs API",
+                    "key": "pl_logs"
+                }
+            ]
+        },
+        {
+            "name": "Online Ordering",
+            "subComponents": [
+                {
+                    "name": "Mobile Ordering API",
+                    "key": "mo"
+                },
+                {
+                    "name": "XOO Integrator",
+                    "key": "xoo"
+                }
+            ]
+        },
+        {
+            "name": "Utilities",
+            "subComponents": [
+                {
+                    "name": "Tax Calculation API",
+                    "key": "tax"
+                },
+                {
+                    "name": "Discounts API",
+                    "key": "dsc"
+                },
+                {
+                    "name": "Weather API",
+                    "key": "weather"
+                }
+            ]
+        }
+    ]
+}
