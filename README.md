@@ -1,2 +1,2 @@
 # XenialStackStatus
-Handy utility for tracking environment status' at Xenial. Only for employer reference and private usage. Not to be duplicated, repackaged, or sold.
+Web utility for checking the current version and health status' of Xenial dev, qa, and production environments. This is unlicensed independently written software. Code is only public for employer reference and private usage. Not to be duplicated, repackaged, or sold.
