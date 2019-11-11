@@ -12,10 +12,10 @@ This utility is not hosted online. If you'd like to use it, you must download it
 ### Configuration
 You can modify the behavior of the utility by changing the values within ./config.json and restarting the backend server.
 
-*heartbeat*: Number to represent the interval by which the utility checks for component updates, in minutes.
-*retry*: Amount of times a failed request will be retried.
-*port*: Port which the server runs on.
-*stacks*: The string names of all environments/stacks you wish to track, as recognized by the **env** arg at Xenial's [Simple Service Registry](https://ssr.xenial.com/?env=qa)
+*heartbeat*: Number to represent the interval by which the utility checks for component updates, in minutes. <br/>
+*retry*: Amount of times a failed request will be retried. <br/>
+*port*: Port which the server runs on. <br/>
+*stacks*: The string names of all environments/stacks you wish to track, as recognized by the **env** arg at Xenial's [Simple Service Registry](https://ssr.xenial.com/?env=qa) <br/>
 *componentTree*: Lists all components you wish to track in a json list, sorted by "super components". If there are components which you know exist in an environment, which you are not seeing versions for, you can add or reorganize them here. It is critical that **key** match the component's **key** value in SSR.
 
 ### How it Works
