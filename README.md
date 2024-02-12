@@ -1,3 +1,6 @@
+# I DID NOT HAVE THE CHANCE TO GET THE CODE FOR THE WORKING VERSION SINCE GETTING LAID OFF FROM THIS POSITION
+# I'D LIKE TO REWRITE IT BUT UNTIL THEN THESE ARE THE ONLY REMNANTS
+
 # XenialStackStatus
 Web utility for checking the current version and health status' of Xenial dev, qa, and production environments. This is unlicensed independently written software. Code is only public for employer reference and private usage. Not to be duplicated, repackaged, or sold.
 
